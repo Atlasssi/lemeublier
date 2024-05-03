@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Le Meublier </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/96dcb489df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- section acceuil -->
+     <section id="container">
+      <header>
+        <div class="logo">
+            <img src="/images/logo/Le_Meublier.webp" alt="">
+        </div>
+
+        <!-- menu avec Javascript-->
+        <div class="menu-toggle"></div> 
+        <ul class="menu">
+            <li><a href="#container">acceuil</a></li>
+            <li><a href="#a-propos">à propos</a></li>
+            <li><a href="#gallerie">type des meubles</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+      </header>
+    
+      <div class="container-text">
+          <h1> Meubles et Fournitures </h1>
+          <p> Un meuble sain pour une maison saine</p>
+          <a href="#">Découvrez nos meubles</a>
+      </div>
+    </section> 
+
+    <!-- section a propos -->
+     <section id="a-propos">
+        <div>
+            <h2>à propos</h2>
+            <div class="description-a-propos">
+                    <div class="description">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus pariatur veritatis repellat reiciendis eius, neque quam molestias velit sequi nihil iste nulla placeat inventore ea recusandae, sint fugit explicabo? Harum?
+                        Quis consequatur vero, harum neque culpa iure voluptas optio inventore praesentium iste, vel corrupti maiores? Eius adipisci dicta ad molestiae fuga consequatur aspernatur! Quidem saepe veniam fugiat sapiente quos laborum?
+                        Error quis, quisquam facilis debitis reiciendis quasi iusto dolor vero dolores possimus hic! Dicta sapiente quis repellat accusantium odio quae enim quos quaerat incidunt mollitia, nostrum cumque cum, quidem nisi?
+                        Eum ipsum vero veritatis omnis distinctio, illum voluptatibus odio itaque corrupti facilis voluptate maiores. Autem voluptatem minima dicta animi, eaque, numquam nemo quae ducimus dolores eos doloremque molestiae, praesentium vitae.
+                        Velit, ex autem architecto, corrupti explicabo non eligendi quia possimus assumenda eaque illo magni, quasi fuga atque maiores corporis sunt suscipit laboriosam dolorem ipsa earum aliquam optio. Maxime, porro quidem!</p>
+                        <h3>NOS SERVICES</h3>
+                        <div class="list-services">
+                            <div class="service">
+                                <i class="fas fa-tachometer-alt"></i>
+                                <p>RAPIDE</p>
+                            </div>
+                            <div class="service">
+                                <i class="fas fa-money-check-alt"></i>
+                                <p>ECONOMIQUE</p>
+                            </div>
+                            <div class="service">
+                                <i class="fas fa-check"></i>
+                                <p>FIABLE</p>
+                            </div>
+                        </div>
+                    </div>
+                <img src="/images/COLLECTION PIANA 1440x810.jpg" alt="">
+            </div>
+        </div>
+    </section> 
+
+    <!-- section gallerie meubles -->
+    <section id="gallerie">
+            <p class="title-section">Nos types de meubles</p>
+            <div class="liste-photos">
+                <div class="gallerie-img">
+                    <img src="images/chaise/chaise_longue.jpg" alt="">
+                    <div class="meuble"><p> Chaise </p></div>
+                    <a href=""></a>
+                </div>
+                <div class="gallerie-img">
+                    <img src="images/table/table.webp" alt="">
+                    <div class="meuble"><p> Table </p></div>
+                    <a href=""></a>
+                </div>
+                <div class="gallerie-img">
+                    <img src="images/canape/Canape.webp" alt="">
+                    <div class="meuble"><p> Canapé </p></div>
+                    <a href=""></a>
+                </div>
+                <div class="gallerie-img">
+                    <img src="images/lit/lit_grand.jpg">
+                    <div class="meuble"><p> Lit </p></div>
+                    <a href=""></a>
+                </div>
+
+            </div>
+    </section> 
+
+<!--  section contact -->
+    <section id="contact">
+        <h4>formulaire de contact</h4>
+        <div>
+            <form action="">
+                <label>Adresse Mail</label>
+                <input type="text" placeholder="Ex: azerty@gmail.com">
+                <label>Message</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Votre message..."></textarea>
+                <input type="submit" value="ENVOYER">
+            </form>
+            <div class="images-contact">
+                <img src="images/logo/Le_Meublier.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+<script>
+    var menu_toggle = document.querySelector('header .menu-toggle');
+    var menu = document.querySelector('header .menu');
+    menu_toggle.onclick = function(){
+        menu_toggle.classList.toggle('active') ; 
+        menu.classList.toggle('responsive') ; 
+    }
+</script>
+
+</body>
+</html>
