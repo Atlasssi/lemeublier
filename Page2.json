@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Chaise modèle 1",
+        "price": 200,
+        "image": "images/1.PNG"
+    },
+    {
+        "id": 2,
+        "name":" Chaise modèle 2",
+        "price": 250,
+        "image": "images/2.PNG"
+    },
+    {
+        "id": 3,
+        "name":" Chaise modèle 3",
+        "price": 290,
+        "image": "images/3.PNG"
+    },
+    {
+        "id": 4,
+        "name":" Chaise modèle 4",
+        "price": 200,
+        "image": "images/4.PNG"
+    },
+    {
+        "id": 5,
+        "name":" Chaise modèle 5",
+        "price": 300,
+        "image": "images/5.PNG"
+    },
+    {
+        "id": 6,
+        "name":" Chaise modèle 6",
+        "price": 200,
+        "image": "images/6.PNG"
+    },
+    {
+        "id": 7,
+        "name":" Chaise modèle 7",
+        "price": 200,
+        "image": "images/7.PNG"
+    },
+    {
+        "id": 8,
+        "name":" Chaise modèle 8",
+        "price": 200,
+        "image": "images/8.PNG"
+    }
+
+]
