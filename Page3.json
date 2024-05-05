@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Table modèle 1",
+        "price": 350,
+        "image": "images/9.PNG"
+    },
+    {
+        "id": 2,
+        "name":" Table modèle 2",
+        "price": 400,
+        "image": "images/10.PNG"
+    },
+    {
+        "id": 3,
+        "name":" Table modèle 3",
+        "price": 450,
+        "image": "images/11.PNG"
+    },
+    {
+        "id": 4,
+        "name":" Table modèle 4",
+        "price": 400,
+        "image": "images/12.PNG"
+    },
+    {
+        "id": 5,
+        "name":" Table modèle 5",
+        "price": 450,
+        "image": "images/13.PNG"
+    },
+    {
+        "id": 6,
+        "name":" Table modèle 6",
+        "price": 350,
+        "image": "images/14.PNG"
+    },
+    {
+        "id": 7,
+        "name":" Table modèle 7",
+        "price": 450,
+        "image": "images/15.PNG"
+    },
+    {
+        "id": 8,
+        "name":" Table modèle 8",
+        "price": 350,
+        "image": "images/16.PNG"
+    }
+
+]
