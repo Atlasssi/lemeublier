@@ -1,0 +1,84 @@
+/* Style de base pour la page */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /* Centrer le formulaire dans la page */
+  form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style pour les étiquettes */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Améliorer l'apparence des inputs et du bouton */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="month"],
+  select,
+  button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style pour le bouton de soumission */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style pour les champs fieldset et legend */
+  fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    padding-bottom: 10px;
+    font-size: 1.25em;
+    color: #333;
+  }
+  
+  /* Style pour la case à cocher */
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Petit ajustement pour le responsive design */
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+    form {
+      margin: 10px;
+    }
+  }
